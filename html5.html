@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>audio and video</title>
+  <link rel="stylesheet" href="table.html">
+  <link rel="stylesheet" href="form.html">
+  <style>
+    nav>ul {
+      display: flex;
+      
+    }
+    nav li {
+      list-style: none;
+      padding: 10px;
+     
+    }
+    nav a {text-decoration: none;
+           } 
+
+           nav ul :hover{background-color: gray;
+
+           }   
+           
+           nav li.drop{
+            display: none;
+            position: absolute;
+            background-color: antiquewhite;
+            
+        
+           }
+           
+           nav li:hover.drop {
+             display: block;
+
+           }
+
+      
+
+    
+  </style>
+</head>
+<body>
+
+          <nav>
+            <ul>
+              <li><a href="blog.html">Blog</a> </li>
+              <li><a href="form.html ">Form</a></li>
+              <li>
+                <a href="table.html">Table</a></li>
+                      <ul class="drop">
+                        <li><a href="blog.html">Blog</a> </li>
+                        <li><a href="form.html ">Form</a></li>
+                        <li><a href="table.html">Table</a></li>
+                        <li><a href="html5.html">audio</a></li>
+                        <li><a href="video.mp4">video</a></li>
+                      </ul>
+              <li><a href="html5.html">audio</a></li>
+              <li><a href="video.mp4">video</a></li>
+            </ul>
+          </nav>
+  
+        <audio controls src="Aylex - Be Children (freetouse.com).mp3"></audio>
+        <video controls height="500px"width="500px" src="160767 (720p).mp4"></video>
+        
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/HcOc7P5BMi4" title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen></iframe>
+
+</body>
+</html>
